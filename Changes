@@ -1,6 +1,4 @@
-Revision history for {{$dist->name}}
-
-{{$NEXT}}
+Revision history for Regexp-Grammars-Common-String
 
 0.01000001 2010-12-25 14:20:07 Pacific/Auckland
           First version. Merry Christmas.
