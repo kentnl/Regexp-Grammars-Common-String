@@ -3,7 +3,10 @@ use warnings;
 
 package Regexp::Grammars::Common::String;
 BEGIN {
-  $Regexp::Grammars::Common::String::VERSION = '0.01000001';
+  $Regexp::Grammars::Common::String::AUTHORITY = 'cpan:KENTNL';
+}
+{
+  $Regexp::Grammars::Common::String::VERSION = '0.01000002';
 }
 
 # ABSTRACT: Some basic String parsing Rules for Regexp::Grammars
@@ -41,7 +44,7 @@ Regexp::Grammars::Common::String - Some basic String parsing Rules for Regexp::G
 
 =head1 VERSION
 
-version 0.01000001
+version 0.01000002
 
 =head1 SYNOPSIS
 
@@ -100,7 +103,7 @@ Kent Fredric <kentnl@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2010 by Kent Fredric <kentnl@cpan.org>.
+This software is copyright (c) 2011 by Kent Fredric <kentnl@cpan.org>.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

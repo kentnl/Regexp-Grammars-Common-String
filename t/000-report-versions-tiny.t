@@ -49,14 +49,15 @@ sub pmver {
 }
 
 eval { $v .= pmver('Data::Dumper','any version') };
-eval { $v .= pmver('Dist::Zilla::PluginBundle::KENTNL','0.01017119') };
-eval { $v .= pmver('Dist::Zilla::PluginBundle::KENTNL::Lite','0.01009803') };
-eval { $v .= pmver('English','any version') };
+eval { $v .= pmver('Dist::Zilla::PluginBundle::Author::KENTNL','1.0.0') };
+eval { $v .= pmver('Dist::Zilla::PluginBundle::Author::KENTNL::Lite','0.01009803') };
 eval { $v .= pmver('File::Find','any version') };
 eval { $v .= pmver('File::Temp','any version') };
 eval { $v .= pmver('Module::Build','0.3601') };
 eval { $v .= pmver('Regexp::Grammars','any version') };
 eval { $v .= pmver('Test::More','0.96') };
+eval { $v .= pmver('strict','any version') };
+eval { $v .= pmver('warnings','any version') };
 
 
 
