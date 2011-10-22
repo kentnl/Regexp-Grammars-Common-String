@@ -17,6 +17,11 @@ Revision history for {{$dist->name}}
  - Migrate Changelog format to CPAN::Changes
  - Update LICENSE ( Year, Indentation, Address )
  - Move author/release tests to xt/
+ - add x_authority
+ - point Git repo urls to https:// github
+
+ [Tests]
+ - 00-compile.t regenerated.
 
 0.01000001 2010-12-25T01:20:07Z
  - First version. Merry Christmas.

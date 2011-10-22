@@ -20,29 +20,33 @@ my $grammar = qr{
 
 }x;
 
-
-my $sample = 'foo bar "\Foo" "Quux\"" blah "Do\"oo"';
+my $sample  = 'foo bar "\Foo" "Quux\"" blah "Do\"oo"';
 my $matches = ( $sample =~ $grammar );
-my $result = undef;
+my $result  = undef;
 $result = \%/ if $matches;
 
-ok( $matches, "Expression matches");
+ok( $matches, "Expression matches" );
 is_deeply(
-    $result->{'pair'}, [
-        { 'String' => 'Foo' ,
-            'everything_else' => 'foo bar ',
-        },
-        { 'String' => 'Quux"',
-            'everything_else' => ' ',
-        },
-        {
-            'String' => 'Do"oo',
-            'everything_else' => ' blah ',
-        }], 'Parse returns right structure' );
+  $result->{'pair'},
+  [
+    {
+      'String'          => 'Foo',
+      'everything_else' => 'foo bar ',
+    },
+    {
+      'String'          => 'Quux"',
+      'everything_else' => ' ',
+    },
+    {
+      'String'          => 'Do"oo',
+      'everything_else' => ' blah ',
+    }
+  ],
+  'Parse returns right structure'
+);
 
 done_testing();
-if( $sample =~  $grammar ){
-    print Dumper ( \%/ );
+if ( $sample =~ $grammar ) {
+  print Dumper ( \%/ );
 }
-
 
