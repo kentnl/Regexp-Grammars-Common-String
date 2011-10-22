@@ -3,6 +3,13 @@ Revision history for {{$dist->name}}
 {{$NEXT}}
  - Maintenance Release
 
+ [Dependencies::New::Runtime]
+ - strict
+ - warnings
+
+ [Dependencies::Removed::Test]
+ - English
+
  [Packaging]
  - ship .perltidyrc
  - use Git versions
@@ -10,14 +17,6 @@ Revision history for {{$dist->name}}
  - Migrate Changelog format to CPAN::Changes
  - Update LICENSE ( Year, Indentation, Address )
  - Move author/release tests to xt/
-
- [Dependencies::Removed::Test]
- - English
-
- [Dependencies::New::Runtime]
- - strict
- - warnings
-
 
 0.01000001 2010-12-25T01:20:07Z
  - First version. Merry Christmas.
