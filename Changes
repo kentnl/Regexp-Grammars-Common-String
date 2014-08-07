@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+1.000000 2014-08-07T14:27:54Z
  [00 Major]
  - Significant packaging changes that may affect hand-operated downstream.
 
