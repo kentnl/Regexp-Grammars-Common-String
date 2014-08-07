@@ -3,7 +3,7 @@ use warnings;
 
 package Regexp::Grammars::Common::String;
 
-our $VERSION = '0.01000003';
+our $VERSION = '1.000000';
 
 # ABSTRACT: Some basic String parsing Rules for Regexp::Grammars
 
@@ -95,7 +95,7 @@ Regexp::Grammars::Common::String - Some basic String parsing Rules for Regexp::G
 
 =head1 VERSION
 
-version 0.01000003
+version 1.000000
 
 =head1 SYNOPSIS
 

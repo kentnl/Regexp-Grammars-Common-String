@@ -3,7 +3,7 @@ NAME
     Regexp::Grammars
 
 VERSION
-    version 0.01000003
+    version 1.000000
 
 SYNOPSIS
         use Regex::Grammars;
