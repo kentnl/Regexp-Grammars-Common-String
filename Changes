@@ -8,6 +8,9 @@ Revision history for {{$dist->name}}
  - develop: +48 -1 (recommends: -1, suggests: +1 ↑1)
  - test: +2 ↑1 -2 (recommends: +1)
 
+ [Minor]
+ - Moved to kentnl.org
+
 0.01000002 2011-10-22T13:35:39Z
  - Maintenance Release
 
