@@ -10,6 +10,10 @@ META.yml
 README
 dist.ini
 lib/Regexp/Grammars/Common/String.pm
+misc/Changes.deps
+misc/Changes.deps.all
+misc/Changes.deps.dev
+misc/Changes.deps.opt
 perlcritic.rc
 t/00-compile/lib_Regexp_Grammars_Common_String_pm.t
 t/00-report-prereqs.dd
