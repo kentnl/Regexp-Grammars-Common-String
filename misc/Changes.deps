@@ -1,18 +1,18 @@
 This file contains changes in REQUIRED dependencies for standard CPAN phases (configure/build/runtime/test)
 
 1.000000
+ [Added / configure requires]
+ - ExtUtils::MakeMaker
+
  [Added / test requires]
  - ExtUtils::MakeMaker
  - File::Spec
 
- [Changed / build requires]
- - Module::Build 0.3601 → 0.4206
+ [Removed / build requires]
+ - Module::Build 0.3601
 
- [Changed / configure requires]
- - Module::Build 0.3601 → 0.4206
-
- [Changed / test requires]
- - Test::More 0.96 → 1.001003
+ [Removed / configure requires]
+ - Module::Build 0.3601
 
  [Removed / test requires]
  - File::Find
