@@ -3,6 +3,8 @@ use warnings;
 
 package Regexp::Grammars::Common::String;
 
+our $VERSION = '0.01000003';
+
 # ABSTRACT: Some basic String parsing Rules for Regexp::Grammars
 
 use Regexp::Grammars;

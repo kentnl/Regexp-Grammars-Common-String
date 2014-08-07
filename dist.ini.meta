@@ -11,6 +11,7 @@ copyright_holder = Kent Fredric <kentnl@cpan.org>
 git_versions = 1
 normal_form  = numify
 mantissa = 8
+bumpversions = 1
 
 ;version_major     = 0
 ;version_minor     = 1
