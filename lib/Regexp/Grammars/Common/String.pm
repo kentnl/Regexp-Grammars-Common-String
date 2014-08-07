@@ -7,6 +7,8 @@ our $VERSION = '1.000000';
 
 # ABSTRACT: Some basic String parsing Rules for Regexp::Grammars
 
+our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
+
 use Regexp::Grammars;
 use 5.010000;
 
@@ -88,6 +90,8 @@ my $grammar = qr{
 __END__
 
 =pod
+
+=encoding UTF-8
 
 =head1 NAME
 
