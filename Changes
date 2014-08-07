@@ -1,6 +1,6 @@
 Revision history for Regexp-Grammars-Common-String
 
-1.000000 2014-08-07T14:22:21Z
+1.000000 2014-08-07T14:27:54Z
  [00 Major]
  - Significant packaging changes that may affect hand-operated downstream.
 
@@ -19,6 +19,7 @@ Revision history for Regexp-Grammars-Common-String
  - build: -1
  - configure: +1 -1 (recommends: +1)
  - develop: +48 -1 (recommends: -1, suggests: +1 ↑1)
+ - runtime: +1
  - test: +2 -2 (recommends: +3)
 
  [Minor]
