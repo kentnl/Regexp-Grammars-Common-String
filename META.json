@@ -109,13 +109,13 @@
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/kentfredric/Regexp-Grammars-Common-String/issues"
+         "web" : "https://github.com/kentnl/Regexp-Grammars-Common-String/issues"
       },
-      "homepage" : "https://github.com/kentfredric/Regexp-Grammars-Common-String",
+      "homepage" : "https://github.com/kentnl/Regexp-Grammars-Common-String",
       "repository" : {
          "type" : "git",
-         "url" : "https://github.com/kentfredric/Regexp-Grammars-Common-String.git",
-         "web" : "https://github.com/kentfredric/Regexp-Grammars-Common-String"
+         "url" : "https://github.com/kentnl/Regexp-Grammars-Common-String.git",
+         "web" : "https://github.com/kentnl/Regexp-Grammars-Common-String"
       }
    },
    "version" : "0.01000003",
