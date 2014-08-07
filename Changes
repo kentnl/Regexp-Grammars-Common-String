@@ -1,6 +1,14 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+ [00 Major]
+ - Significant packaging changes that may affect hand-operated downstream.
+
+ [01 Version Scheme]
+ - Versions normalised to x.y{6} instead of x.y{8}
+ - https://questhub.io/realm/perl/quest/5388d3a9bbd0be2224000129
+ - This is the primary reason for the 1.x on the box
+
  [Dependencies::Stats]
  - Dependencies changed since 0.01000002, see misc/*.deps* for details
  - build: ↑1

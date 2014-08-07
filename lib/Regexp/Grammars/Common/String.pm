@@ -3,7 +3,7 @@ use warnings;
 
 package Regexp::Grammars::Common::String;
 
-our $VERSION = '0.01000003';
+our $VERSION = '1.000000';
 
 # ABSTRACT: Some basic String parsing Rules for Regexp::Grammars
 
