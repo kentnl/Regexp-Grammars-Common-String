@@ -5,7 +5,7 @@ use utf8;
 
 package Regexp::Grammars::Common::String;
 
-our $VERSION = '1.000000';
+our $VERSION = '1.000001';
 
 # ABSTRACT: Some basic String parsing Rules for Regexp::Grammars
 
@@ -103,7 +103,7 @@ Regexp::Grammars::Common::String - Some basic String parsing Rules for Regexp::G
 
 =head1 VERSION
 
-version 1.000000
+version 1.000001
 
 =head1 SYNOPSIS
 
