@@ -83,6 +83,7 @@
             "Regexp::Grammars" : "0",
             "perl" : "5.010000",
             "strict" : "0",
+            "utf8" : "0",
             "warnings" : "0"
          }
       },
@@ -178,6 +179,7 @@
          "Test::Pod" : "1.48",
          "Test::Pod::Coverage" : "1.10",
          "strict" : "1.08",
+         "utf8" : "1.14",
          "warnings" : "1.24"
       },
       "perl" : {

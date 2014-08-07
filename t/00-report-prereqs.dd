@@ -68,6 +68,7 @@ do { my $x = {
                                       'Regexp::Grammars' => '0',
                                       'perl' => '5.010000',
                                       'strict' => '0',
+                                      'utf8' => '0',
                                       'warnings' => '0'
                                     }
                     },

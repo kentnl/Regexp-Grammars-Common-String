@@ -22,6 +22,7 @@ my %WriteMakefileArgs = (
   "PREREQ_PM" => {
     "Regexp::Grammars" => 0,
     "strict" => 0,
+    "utf8" => 0,
     "warnings" => 0
   },
   "TEST_REQUIRES" => {
@@ -44,6 +45,7 @@ my %FallbackPrereqs = (
   "Regexp::Grammars" => 0,
   "Test::More" => "0.96",
   "strict" => 0,
+  "utf8" => 0,
   "warnings" => 0
 );
 
