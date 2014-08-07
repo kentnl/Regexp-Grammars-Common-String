@@ -1,6 +1,6 @@
 Revision history for Regexp-Grammars-Common-String
 
-0.01000003 2014-08-07T14:02:10Z
+0.01000003 2014-08-07T14:05:32Z
  [Dependencies::Stats]
  - Dependencies changed since 0.01000002, see misc/*.deps* for details
  - build: ↑1

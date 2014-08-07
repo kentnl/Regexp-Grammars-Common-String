@@ -2,7 +2,9 @@ use strict;
 use warnings;
 
 package Regexp::Grammars::Common::String;
-$Regexp::Grammars::Common::String::VERSION = '0.01000003';
+
+our $VERSION = '0.01000003';
+
 # ABSTRACT: Some basic String parsing Rules for Regexp::Grammars
 
 use Regexp::Grammars;
