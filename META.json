@@ -120,9 +120,6 @@
    },
    "version" : "0.01000003",
    "x_BuiltWith" : {
-      "failures" : {
-         "Regexp::Grammars" : "module was not found in INC"
-      },
       "modules" : {
          "CPAN::Meta" : "2.142060",
          "Data::Dumper" : "2.152",
@@ -174,6 +171,7 @@
          "File::Spec" : "3.48",
          "Module::Build" : "0.4206",
          "Pod::Coverage::TrustPod" : "0.100003",
+         "Regexp::Grammars" : "1.035",
          "Test::CPAN::Changes" : "0.30",
          "Test::CPAN::Meta" : "0.23",
          "Test::Kwalitee" : "1.19",
