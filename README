@@ -1,0 +1,69 @@
+NAME
+    Regexp::Grammars::Common::String - Some basic String parsing Rules for
+    Regexp::Grammars
+
+VERSION
+    version 0.01000003
+
+SYNOPSIS
+        use Regex::Grammars;
+        use Regexp::Grammars::Common::String;
+
+        my $re = qr{
+
+            (.*<[String]>)+
+
+            <extends: Regexp::Grammars::Common::String>
+
+        }x; #  don't forget the x!
+
+            ...
+
+        if( $content =~ $re ){
+            print Dumper( \%/ ); # Praying Mantis operator!?
+        }
+
+DESCRIPTION
+    Regexp::Grammars is just too useful to not use, but too pesky and
+    confusing for new people.
+
+    Some of the more complex things involve string extraction and
+    escape-handling, and I seriously spent the better part 2 hours learning
+    how to make this work. So, even if this module is not immediately
+    useful, it may serve as an educational tool for others.
+
+    I probably should have delved deeper into the Regexp::Common Family, but
+    I couldn't find one in there that did exactly what I wanted.
+
+    At present, this module only provides one rule, "String", but I will
+    probably add a few more later.
+
+GRAMMARS
+  Regexp::Grammars::Common::String
+        <extends: Regexp::Grammars::Common::String>
+
+RULES
+  String
+    For parsing strings like so:
+
+        "Hello"     => 'Hello'
+        "Hel\lo"    => 'Hello'
+        "Hel\\lo"   => 'Hel\lo'
+        "Hel\"lo"   => 'Hel"lo'
+
+    It should do a reasonable job of picking up strings from files and
+    properly returning their parsed contents.
+
+    It made sense to me to drop the excess "\"'s that are used for escaping,
+    in order to get a copy of the string as it would be seen to anything
+    else that parsed it properly and evaluated the escapes into characters.
+
+AUTHOR
+    Kent Fredric <kentnl@cpan.org>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2014 by Kent Fredric <kentnl@cpan.org>.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+
