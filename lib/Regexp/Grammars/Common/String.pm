@@ -29,6 +29,8 @@ my $grammar = qr{
 
 }x;
 
+1;
+
 =head1 DESCRIPTION
 
 L<Regexp::Grammars|Regexp::Grammars> is just too useful to not use, but too pesky and confusing for new people.
@@ -88,5 +90,3 @@ It made sense to me to drop the excess C<\>'s that are used for escaping, in ord
 it would be seen to anything else that parsed it properly and evaluated the escapes into characters.
 
 =cut
-
-1;
