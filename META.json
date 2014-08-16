@@ -105,7 +105,7 @@
    "provides" : {
       "Regexp::Grammars::Common::String" : {
          "file" : "lib/Regexp/Grammars/Common/String.pm",
-         "version" : "1.000001"
+         "version" : "1.000002"
       }
    },
    "release_status" : "stable",
@@ -120,7 +120,7 @@
          "web" : "https://github.com/kentnl/Regexp-Grammars-Common-String"
       }
    },
-   "version" : "1.000001",
+   "version" : "1.000002",
    "x_BuiltWith" : {
       "modules" : {
          "CPAN::Meta" : "2.142060",
@@ -623,7 +623,7 @@
                "Dist::Zilla::Plugin::Git::Tag" : {
                   "branch" : null,
                   "signed" : 0,
-                  "tag" : "1.000001-source",
+                  "tag" : "1.000002-source",
                   "tag_format" : "%v-source",
                   "tag_message" : "v%v",
                   "time_zone" : "local"
@@ -694,7 +694,7 @@
                "Dist::Zilla::Plugin::Git::Tag" : {
                   "branch" : "releases",
                   "signed" : 0,
-                  "tag" : "1.000001",
+                  "tag" : "1.000002",
                   "tag_format" : "%v",
                   "tag_message" : "v%v",
                   "time_zone" : "local"
