@@ -4,7 +4,7 @@ Regexp::Grammars::Common::String - Some basic String parsing Rules for Regexp::G
 
 # VERSION
 
-version 1.000001
+version 1.000002
 
 # SYNOPSIS
 
