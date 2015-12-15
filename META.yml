@@ -21,7 +21,7 @@ name: Regexp-Grammars-Common-String
 provides:
   Regexp::Grammars::Common::String:
     file: lib/Regexp/Grammars/Common/String.pm
-    version: '1.000002'
+    version: '1.000003'
 requires:
   Regexp::Grammars: '0'
   perl: '5.010000'
@@ -32,4 +32,4 @@ resources:
   bugtracker: https://github.com/kentnl/Regexp-Grammars-Common-String/issues
   homepage: https://github.com/kentnl/Regexp-Grammars-Common-String
   repository: https://github.com/kentnl/Regexp-Grammars-Common-String.git
-version: '1.000002'
+version: '1.000003'

@@ -1,5 +1,7 @@
 Revision history for Regexp-Grammars-Common-String
 
+1.000003 2015-12-15T10:58:59Z dae09df
+
 1.000002 2015-12-15T10:56:25Z fdd40fd
  [Bugfix]
  - Avoid complications with Regexp::Grammars 1.043 failing to create match globals ( See RT#110356 ) by explicitly
