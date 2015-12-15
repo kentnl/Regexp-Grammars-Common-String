@@ -1,6 +1,11 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+ [Dependencies::Stats]
+ - Dependencies changed since 1.000001, see misc/*.deps* for details
+ - configure: +1 (recommends: ↑1)
+ - develop: +3 ↑1 (recommends: +1, suggests: ↑2)
+ - test: +1 (recommends: ↑2)
 
 1.000001 2014-08-15T23:28:10Z
  [00 Trivial]
@@ -64,4 +69,3 @@ Revision history for {{$dist->name}}
 
 0.01000001 2010-12-25T01:20:07Z
  - First version. Merry Christmas.
-
