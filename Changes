@@ -1,6 +1,11 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+ [Bugfix]
+ - Avoid complications with Regexp::Grammars 1.043 failing to create match globals ( See RT#110356 ) by explicitly
+   declaring them.
+ - Closes #1
+
  [Dependencies::Stats]
  - Dependencies changed since 1.000001, see misc/*.deps* for details
  - configure: +1 (recommends: ↑1)

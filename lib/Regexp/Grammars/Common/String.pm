@@ -13,6 +13,10 @@ our $VERSION = '1.000002';
 
 use Regexp::Grammars;
 
+# Needs to be declared and R:G:1.043 forgets to
+# Unrelated to English.pm $MATCH
+our $MATCH;    ## no critic (Variables::ProhibitMatchVars)
+
 ## no critic (RegularExpressions Documentation Variables::ProhibitUnusedVarsStricter)
 my $grammar = qr{
     <grammar: Regexp::Grammars::Common::String>
