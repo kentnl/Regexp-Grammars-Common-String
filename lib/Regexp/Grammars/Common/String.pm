@@ -13,7 +13,9 @@ our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 
 use Regexp::Grammars;
 
-our $MATCH; # Needs to be declared and R:G:1.043 forgets to
+# Needs to be declared and R:G:1.043 forgets to
+# Unrelated to English.pm $MATCH
+our $MATCH;    ## no critic (Variables::ProhibitMatchVars)
 
 ## no critic (RegularExpressions Documentation Variables::ProhibitUnusedVarsStricter)
 my $grammar = qr{
