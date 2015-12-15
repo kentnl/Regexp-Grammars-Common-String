@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+1.000002 2015-12-15T10:56:25Z fdd40fd
  [Bugfix]
  - Avoid complications with Regexp::Grammars 1.043 failing to create match globals ( See RT#110356 ) by explicitly
    declaring them.
