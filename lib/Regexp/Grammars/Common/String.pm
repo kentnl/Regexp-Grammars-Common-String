@@ -5,13 +5,17 @@ use utf8;
 
 package Regexp::Grammars::Common::String;
 
-our $VERSION = '1.000001';
+our $VERSION = '1.000002';
 
 # ABSTRACT: Some basic String parsing Rules for Regexp::Grammars
 
 our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 
 use Regexp::Grammars;
+
+# Needs to be declared and R:G:1.043 forgets to
+# Unrelated to English.pm $MATCH
+our $MATCH;    ## no critic (Variables::ProhibitMatchVars)
 
 ## no critic (RegularExpressions Documentation Variables::ProhibitUnusedVarsStricter)
 my $grammar = qr{
@@ -43,7 +47,7 @@ Regexp::Grammars::Common::String - Some basic String parsing Rules for Regexp::G
 
 =head1 VERSION
 
-version 1.000001
+version 1.000002
 
 =head1 SYNOPSIS
 
@@ -105,7 +109,7 @@ Kent Fredric <kentnl@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2014 by Kent Fredric <kentnl@cpan.org>.
+This software is copyright (c) 2015 by Kent Fredric <kentnl@cpan.org>.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
