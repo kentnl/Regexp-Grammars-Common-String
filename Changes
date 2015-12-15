@@ -1,9 +1,10 @@
 Revision history for Regexp-Grammars-Common-String
 
-1.000002 2015-12-15T10:46:06Z 21201f7
+1.000002 2015-12-15T10:56:25Z fdd40fd
  [Bugfix]
  - Avoid complications with Regexp::Grammars 1.043 failing to create match globals ( See RT#110356 ) by explicitly
    declaring them.
+ - Closes #1
 
  [Dependencies::Stats]
  - Dependencies changed since 1.000001, see misc/*.deps* for details
