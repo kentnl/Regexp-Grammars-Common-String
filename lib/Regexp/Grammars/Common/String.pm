@@ -13,6 +13,8 @@ our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 
 use Regexp::Grammars;
 
+our $MATCH; # Needs to be declared and R:G:1.043 forgets to
+
 ## no critic (RegularExpressions Documentation Variables::ProhibitUnusedVarsStricter)
 my $grammar = qr{
     <grammar: Regexp::Grammars::Common::String>
